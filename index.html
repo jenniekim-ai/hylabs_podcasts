@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HY Probiotic Audio Series</title>
+  <!-- Tailwind CSS CDN 로드 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Inter 폰트 로드 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* 기본 폰트를 Inter로 설정 */
+    body {
+      font-family: 'Inter', sans-serif;
+      /* 부드러운 스크롤 효과 추가 */
+      scroll-behavior: smooth;
+    }
+    /* 스크롤 스냅 기능 추가 (세로 방향) */
+    .snap-container {
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      height: 100vh;
+    }
+    .snap-section {
+      scroll-snap-align: start;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- 모든 섹션을 감싸는 스크롤 스냅 컨테이너 -->
+  <div class="snap-container">
+
+    <!-- HERO SECTION -->
+    <section class="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-white to-gray-100 p-4 relative snap-section">
+      <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-center text-gray-900">🎙️ HY Probiotic Audio Series</h1>
+      <p class="mt-4 text-lg sm:text-xl text-gray-600 text-center max-w-2xl">Discover the Science Behind Our Functional Strains</p>
+      
+      <!-- 스크롤 애니메이션 (완성된 텍스트 및 아이콘 추가) -->
+      <div class="absolute bottom-10 mt-10 animate-bounce text-gray-500 text-sm">
+        <span class="block text-center">Scroll to discover</span>
+        <svg class="w-6 h-6 text-gray-500 mx-auto mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+      </div>
+    </section>
+
+    <!-- 1. FatSlim Section -->
+    <section class="h-screen w-full flex justify-center items-center bg-gray-100 p-4 sm:p-8 snap-section">
+      <div class="bg-white rounded-2xl shadow-2xl p-8 sm:p-12 w-full max-w-3xl text-center transform transition-all duration-500">
+        <!-- 아이콘 -->
+        <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden bg-white">
+          <img src="https://media.istockphoto.com/id/1402684859/ko/%EB%B2%A1%ED%84%B0/%EC%9B%B9-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%9D%91%EC%9A%A9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%9D%B8%EC%87%84-%EC%82%AC%EC%9A%A9%EC%9D%84%EC%9C%84%ED%95%9C-%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4-%ED%8B%B0%EB%B8%8C-%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8-%EC%95%84%EC%9D%B4%EC%BD%98.jpg?s=612x612&w=0&k=20&c=73YQade04vynxUJfA0EXC26WSzSyK4RHxGr2HT-RdEY=" alt="FatSlim Diet Icon" class="w-full h-full object-cover">
+        </div>
+        
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">FatSlim</h2>
+        <p class="text-lg text-gray-600 mt-2">(<i>L. curvatus</i> HY7601 + <i>L. plantarum</i> KY1032)</p>
+        <p class="mt-4 text-gray-700 max-w-lg mx-auto">
+          A probiotic combination focused on reducing body fat. Discover the scientific principles through our audio series and intro video.
+        </p>
+        
+        <!-- 링크 버튼 -->
+        <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+          <a href="https://notebooklm.google.com/notebook/bac50939-8593-41f0-a8b1-c0aa0ba45439?artifactId=60b3f594-2d7b-4deb-bc08-f306f2c8c4df" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300 text-base">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v2a3 3 0 01-3 3z"></path></svg>
+            Listen to Podcast
+          </a>
+          <a href="https://notebooklm.google.com/notebook/32e907fa-c327-49a3-81ba-47b109d7ab49?artifactId=b0711cc6-b0a8-438a-a0d1-76251d68f481" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-900 transition-colors duration-300 text-base">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            Watch Intro Video
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SkinCare Section -->
+    <section class="h-screen w-full flex justify-center items-center bg-gray-50 p-4 sm:p-8 snap-section">
+      <div class="bg-white rounded-2xl shadow-2xl p-8 sm:p-12 w-full max-w-3xl text-center transform transition-all duration-500">
+        <!-- 아이콘 -->
+        <div class="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 overflow-hidden bg-white">
+          <img src="https://cdn-icons-png.flaticon.com/256/4383/4383084.png" alt="SkinCare Icon" class="w-full h-full object-cover">
+        </div>
+        
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">SkinCare</h2>
+        <p class="text-lg text-gray-600 mt-2">(<i>L. plantarum</i> HY7714)</p>
+        <p class="mt-4 text-gray-700 max-w-lg mx-auto">
+          A special probiotic strain that can help improve skin health. Explore the detailed research and effects through our media content.
+        </p>
+        
+        <!-- 링크 버튼 -->
+        <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+          <a href="https://notebooklm.google.com/notebook/0541ba48-da3d-4cc3-8213-8f5cfd311196?artifactId=cd824c04-4643-4965-a796-820e660e5b03" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300 text-base">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v2a3 3 0 01-3 3z"></path></svg>
+            Listen to Podcast
+          </a>
+          <a href="https://notebooklm.google.com/notebook/0541ba48-da3d-4cc3-8213-8f5cfd311196?artifactId=22e92033-70d5-479e-ba3a-7e01d552c853" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center px-6 py-3 bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-gray-900 transition-colors duration-300 text-base">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            Watch Intro Video
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="h-auto py-12 flex justify-center items-center bg-gray-800 text-gray-400 snap-section">
+      <div class="text-center">
+        <p>&copy; 2025 HY Probiotic. All rights reserved.</p>
+        <p class="text-sm mt-1">Functional Strains Audio Series</p>
+      </div>
+    </footer>
+
+  </div> <!-- End of snap-container -->
+
+</body>
+</html>
+
+
+
+
